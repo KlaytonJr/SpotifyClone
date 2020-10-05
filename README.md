@@ -1,3 +1,1 @@
-Meu primeiro sistema no git
-
-Alteração no readme para descrever novo sistema
+Clone do front-end do spotify para fins educacionais. Utilizei desse mini-projeto para poder colocar em prática meus estudos sobre html e css e desenvolver novas habilidades.
