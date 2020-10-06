@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: Gotham-Ultra;
+    src: url(../fonts/gotham-ultra.otf);
+}
+@font-face{
+    font-family: Gotham-Bold;
+    src: url(../fonts/gotham-bold-italic.ttf);
+}
+@font-face{
+    font-family: Gotham-Medium;
+    src: url(../fonts/Gotham\ Medium\ Regular.ttf);
+}
+
+body {
+    font-family: Gotham-Medium;
+    width: 100%;
+}

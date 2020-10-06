@@ -1,0 +1,38 @@
+main {
+    height: 812px;
+    background-image: url(../image/bursts.svg);
+    background-color: #2D46B9;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: top;
+}
+
+.principal-text, .secondary-text {
+    color: #1ed760;
+    text-align: center;
+}
+.principal-text {
+    font-weight: 900;
+    font-size: 130px;
+    padding-top: 200px;
+}
+
+.secondary-text {
+    padding-top: 20px;
+}
+button {
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #1ed760;
+    color: #2D46B9;
+    border-radius: 55px;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin-left: 42%;
+    margin-top: 50px;
+}
+button:hover {
+    background-color: #fff;
+}
