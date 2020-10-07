@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 @font-face{
     font-family: Gotham-Ultra;
@@ -17,6 +21,7 @@
 }
 
 body {
-    font-family: Gotham-Medium;
+    /* font-family: Gotham-Medium; */
+    font-family: 'Roboto', sans-serif;
     width: 100%;
 }

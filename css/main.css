@@ -1,20 +1,40 @@
-main {
+/* main {
     height: 812px;
     background-image: url(../image/bursts.svg);
     background-color: #2D46B9;
     background-repeat: no-repeat;
     background-size: 170%;
     background-position: top;
+} */
+.background {
+    height: 840px;
+    width: 100%;
+    background-color: #2D46B9;
+    overflow: hidden;
+}
+.background img {
+    background-size: cover;
+    position: relative;
+    width: 164%;
+    height: auto;
+    left: -885px;
+    top: -87px;
 }
 
+.all-content {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
 .principal-text, .secondary-text {
     color: #1ed760;
     text-align: center;
 }
 .principal-text {
+    font-family: 'Roboto';
     font-weight: 900;
-    font-size: 130px;
-    padding-top: 200px;
+    font-size: 75px;
+    padding-top: 170px;
 }
 
 .secondary-text {
@@ -22,16 +42,20 @@ main {
 }
 button {
     text-align: center;
-    font-style: normal;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 2px;
     background-color: #1ed760;
     color: #2D46B9;
     border-radius: 55px;
     border: none;
     height: 50px;
     width: 300px;
-    margin-left: 42%;
+    margin-left: 32%;
     margin-top: 50px;
+    cursor: pointer;
 }
 button:hover {
     background-color: #fff;

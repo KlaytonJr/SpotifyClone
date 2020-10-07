@@ -3,25 +3,32 @@ header {
     height: 80px;
     background: #000;
 }
+
 img {
     width: 200px;
     height: 40px;
-    margin-top: 21px;
-    margin-left: 330px;
+    margin-top: 20px;
+    margin-left: 350px;
     float: left;
 }
 
 .header-text {
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 14px;
     color: #fff;
-    margin-left: 60%;
+    margin-left: 54%;
     line-height: 80px;
 
 }
 .header-text .text{
     color: #ffffff;
     float: left;
-    padding-left: 20px;
+    padding-left: 33px;
     cursor: default;
+}
+.header-text .log {
+    color: #c9c8c8;
 }
 .header-text .clickable{
     cursor: pointer;
